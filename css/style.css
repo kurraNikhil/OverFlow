@@ -1,0 +1,41 @@
+#overflowTest {
+  background: black;
+  color: white;
+  padding: 25px;
+  width: 50%;
+  height: 100px;
+  overflow: scroll;
+}
+
+h2{
+	text-align:center;
+}
+
+
+
+#hidden {
+  background-color:blue ;
+  width: 400px;
+  height: 100px;
+  padding: 25px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+#overflow {
+  background: black;
+  color: white;
+  padding: 25px;
+  width: 50%;
+  height: 100px;
+  overflow-y: scroll;
+
+}
+
+
+#visible {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid;
+  overflow: visible;
+}
